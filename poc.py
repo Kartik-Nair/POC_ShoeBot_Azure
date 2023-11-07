@@ -4,7 +4,7 @@ from azure.ai.language.conversations import ConversationAnalysisClient
 from azure.ai.language.conversations.authoring import ConversationAuthoringClient
 
 # endpoint = "https://clu-sample-instance.cognitiveservices.azure.com/"
-# credential = AzureKeyCredential("6258c8f56b7a448ea9331fda1cced398")
+# credential = AzureKeyCredential("config")
 # analysis_client = ConversationAnalysisClient(endpoint, credential)
 
 
@@ -12,10 +12,10 @@ from azure.ai.language.conversations.authoring import ConversationAuthoringClien
 
 # get secrets
 clu_endpoint = "https://clu-sample-instance.cognitiveservices.azure.com/"
-clu_key = "6258c8f56b7a448ea9331fda1cced398"
+clu_key = "config"
 
 clu_endpoint = "https://clu1-westus2.cognitiveservices.azure.com/"
-clu_key = "11bc08a610754c618d20ff4173700b97"
+clu_key = "config"
 
 # project_name = os.environ["AZURE_CONVERSATIONS_PROJECT_NAME"]
 # deployment_name = os.environ["AZURE_CONVERSATIONS_DEPLOYMENT_NAME"]
